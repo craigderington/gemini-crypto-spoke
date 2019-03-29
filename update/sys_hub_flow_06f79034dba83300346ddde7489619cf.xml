@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Test the flow action</description>
+        <internal_name>action_test_flow</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Action Test Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 20:58:51</sys_created_on>
+        <sys_id>06f79034dba83300346ddde7489619cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Action Test Flow</sys_name>
+        <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
+        <sys_update_name>sys_hub_flow_06f79034dba83300346ddde7489619cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 20:59:49</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=06f79034dba83300346ddde7489619cf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=06f79034dba83300346ddde7489619cf"/>
+</record_update>
