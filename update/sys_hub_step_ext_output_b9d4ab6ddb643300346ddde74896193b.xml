@@ -27,17 +27,17 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>trading_pair</element>
+        <element>symbols</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>trading_pair</label>
+        <internal_type display_value="">glide_list</internal_type>
+        <label>symbols</label>
         <mandatory>true</mandatory>
-        <max_length>8000</max_length>
+        <max_length>1024</max_length>
         <model display_value="Script step">5fafdcb8dba83300346ddde74896198e</model>
         <model_id>5fafdcb8dba83300346ddde74896198e</model_id>
         <model_table>sys_hub_step_instance</model_table>
@@ -59,16 +59,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_step_ext_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-29 21:34:34</sys_created_on>
-        <sys_id>152064f8dba83300346ddde74896196c</sys_id>
+        <sys_created_on>2019-04-01 19:49:24</sys_created_on>
+        <sys_id>b9d4ab6ddb643300346ddde74896193b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>var__m_sys_hub_step_ext_output_5fafdcb8dba83300346ddde74896198e</sys_name>
         <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
-        <sys_update_name>sys_hub_step_ext_output_152064f8dba83300346ddde74896196c</sys_update_name>
+        <sys_update_name>sys_hub_step_ext_output_b9d4ab6ddb643300346ddde74896193b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 21:34:34</sys_updated_on>
+        <sys_updated_on>2019-04-01 19:49:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
