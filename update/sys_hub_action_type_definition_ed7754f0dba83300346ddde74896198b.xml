@@ -16,19 +16,19 @@
         <name>Get Crypto Stats for Trading Pair</name>
         <outputs/>
         <outputs/>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-29 20:56:38</sys_created_on>
         <sys_id>ed7754f0dba83300346ddde74896198b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Get Crypto Stats for Trading Pair</sys_name>
         <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ed7754f0dba83300346ddde74896198b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 21:16:25</sys_updated_on>
+        <sys_updated_on>2019-04-01 14:22:34</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>

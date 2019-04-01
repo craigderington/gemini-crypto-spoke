@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-29 21:32:32</sys_created_on>
         <sys_id>5fafdcb8dba83300346ddde74896198e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Script step</sys_name>
         <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
         <sys_update_name>sys_hub_step_instance_5fafdcb8dba83300346ddde74896198e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 21:40:24</sys_updated_on>
+        <sys_updated_on>2019-04-01 14:22:46</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5fafdcb8dba83300346ddde74896198e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -33,14 +33,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-29 21:32:32</sys_created_on>
         <sys_id>63afdcb8dba83300346ddde748961999</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 21:40:24</sys_updated_on>
+        <sys_updated_on>2019-04-01 14:22:46</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   // ... code ...
-  var respObj = JSON.parse(inputs.response_body);
-  respObj.forEach(function (obj) {
+  if (inputs.status_code == '200') {
+  	var respObj = JSON.parse(inputs.response_body);
+  	respObj.forEach(function (obj) {
       outputs.trading_pair = obj;
+    }
   });  
 })(inputs, outputs);
 </value>
