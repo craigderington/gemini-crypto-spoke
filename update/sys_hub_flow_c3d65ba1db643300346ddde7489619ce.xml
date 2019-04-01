@@ -8,8 +8,8 @@
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description/>
-        <internal_name>action_test_flow_gemini_symbols</internal_name>
+        <description>Get a list of Gemini Symbols Trading Pairs</description>
+        <internal_name>gemini_symbols</internal_name>
         <label_cache>[]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
@@ -18,23 +18,23 @@
         <remote_trigger_id/>
         <run_as>user</run_as>
         <sc_callable>false</sc_callable>
-        <show_draft_actions>false</show_draft_actions>
+        <show_draft_actions>true</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
         <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-03-29 21:21:14</sys_created_on>
-        <sys_id>b11d1c38dba83300346ddde7489619b1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2019-04-01 18:48:19</sys_created_on>
+        <sys_id>c3d65ba1db643300346ddde7489619ce</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Action Test Flow Gemini Symbols</sys_name>
         <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
-        <sys_update_name>sys_hub_flow_b11d1c38dba83300346ddde7489619b1</sys_update_name>
+        <sys_update_name>sys_hub_flow_c3d65ba1db643300346ddde7489619ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-29 21:21:52</sys_updated_on>
+        <sys_updated_on>2019-04-01 19:00:15</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
-    <sys_translated_text action="delete_multiple" query="documentkey=b11d1c38dba83300346ddde7489619b1"/>
-    <sys_variable_value action="delete_multiple" query="document_key=b11d1c38dba83300346ddde7489619b1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c3d65ba1db643300346ddde7489619ce"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c3d65ba1db643300346ddde7489619ce"/>
 </record_update>
