@@ -11,24 +11,24 @@
         <description>Get Crypto Stats for Trading Pair</description>
         <internal_name>get_crypto_stats_for_trading_pair</internal_name>
         <label_cache>[{"name":"{{action.trading_pair}}","label":"action➛trading_pair","type":"action","ref":""},{"name":"{{step[bb675330-30cf-4655-818a-298c7b7a1adf].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[bb675330-30cf-4655-818a-298c7b7a1adf].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].b}}","label":"step➛Script step➛b","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].bi}}","label":"step➛Script step➛bi","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].bid}}","label":"step➛Script step➛bid","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].a}}","label":"step➛Script step➛a","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].as}}","label":"step➛Script step➛as","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].ask}}","label":"step➛Script step➛ask","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].v}}","label":"step➛Script step➛v","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].vo}}","label":"step➛Script step➛vo","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].vol}}","label":"step➛Script step➛vol","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].volu}}","label":"step➛Script step➛volu","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].volum}}","label":"step➛Script step➛volum","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].volume}}","label":"step➛Script step➛volume","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].volume_}}","label":"step➛Script step➛volume_","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].volume_b}}","label":"step➛Script step➛volume_b","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].volume_bt}}","label":"step➛Script step➛volume_bt","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].volume_btc}}","label":"step➛Script step➛volume_btc","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].volume_u}}","label":"step➛Script step➛volume_u","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].volume_us}}","label":"step➛Script step➛volume_us","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].volume_usd}}","label":"step➛Script step➛volume_usd","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].t}}","label":"step➛Script step➛t","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].ti}}","label":"step➛Script step➛ti","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].tim}}","label":"step➛Script step➛tim","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].time}}","label":"step➛Script step➛time","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].times}}","label":"step➛Script step➛times","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].timest}}","label":"step➛Script step➛timest","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].timesta}}","label":"step➛Script step➛timesta","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].timestam}}","label":"step➛Script step➛timestam","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].timestamp}}","label":"step➛Script step➛timestamp","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].l}}","label":"step➛Script step➛l","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].la}}","label":"step➛Script step➛la","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].las}}","label":"step➛Script step➛las","type":"step","ref":""},{"name":"{{step[05274542-9193-459f-a6f5-9f9bc9bb5afe].last}}","label":"step➛Script step➛last","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>b6fbdcf4dba83300346ddde7489619a0</latest_snapshot>
+        <latest_snapshot>2c84521edba43300346ddde7489619ef</latest_snapshot>
         <master_snapshot>0bfbdcf4dba83300346ddde7489619ff</master_snapshot>
         <name>Get Crypto Stats for Trading Pair</name>
         <outputs/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-29 20:56:38</sys_created_on>
         <sys_id>ed7754f0dba83300346ddde74896198b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Get Crypto Stats for Trading Pair</sys_name>
         <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ed7754f0dba83300346ddde74896198b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-01 14:22:34</sys_updated_on>
+        <sys_updated_on>2019-04-03 21:53:55</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>

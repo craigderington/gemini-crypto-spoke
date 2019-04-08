@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_gemini_crypto_trading_pairs</internal_name>
+        <label_cache>[{"name":"10ed7ae2-3596-4fca-a93a-a2edbb2d2f91.last","label":"1➛last","reference_display":"last","type":"string","base_type":"string"},{"name":"10ed7ae2-3596-4fca-a93a-a2edbb2d2f91.timestamp","label":"1➛timestamp","reference_display":"timestamp","type":"string","base_type":"string"},{"name":"10ed7ae2-3596-4fca-a93a-a2edbb2d2f91.volume_usd","label":"1➛volume_usd","reference_display":"volume_usd","type":"string","base_type":"string"},{"name":"10ed7ae2-3596-4fca-a93a-a2edbb2d2f91.volume_btc","label":"1➛volume_btc","reference_display":"volume_btc","type":"string","base_type":"string"},{"name":"10ed7ae2-3596-4fca-a93a-a2edbb2d2f91.ask","label":"1➛ask","reference_display":"ask","type":"string","base_type":"string"},{"name":"10ed7ae2-3596-4fca-a93a-a2edbb2d2f91.bid","label":"1➛bid","reference_display":"bid","type":"string","base_type":"string"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Action Test Flow Gemini Trading Pair</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-03 22:01:00</sys_created_on>
+        <sys_id>8526da5edba43300346ddde748961919</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Action Test Flow Gemini Trading Pair</sys_name>
+        <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
+        <sys_update_name>sys_hub_flow_8526da5edba43300346ddde748961919</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 22:02:57</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8526da5edba43300346ddde748961919"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8526da5edba43300346ddde748961919"/>
+</record_update>
