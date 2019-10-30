@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -24,9 +24,11 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-01 18:48:19</sys_created_on>
+        <sys_domain>global</sys_domain>
         <sys_id>c3d65ba1db643300346ddde7489619ce</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Action Test Flow Gemini Symbols</sys_name>
+        <sys_overrides/>
         <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
@@ -37,4 +39,112 @@
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=c3d65ba1db643300346ddde7489619ce"/>
     <sys_variable_value action="delete_multiple" query="document_key=c3d65ba1db643300346ddde7489619ce"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=c3d65ba1db643300346ddde7489619ce^sys_idNOT INb22713e1db643300346ddde748961924"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Gemini Crypto Symbols">8f2cd038dba83300346ddde74896195b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Action Test Flow Gemini Symbols">c3d65ba1db643300346ddde7489619ce</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 18:49:40</sys_created_on>
+        <sys_id>b22713e1db643300346ddde748961924</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_b22713e1db643300346ddde748961924</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 22:03:36</sys_updated_on>
+        <ui_id>df349173-704b-40dd-a81f-0866a4406184</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b22713e1db643300346ddde748961924"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c3d65ba1db643300346ddde7489619ce^sys_idNOT IN3627dba1db643300346ddde7489619bf"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Action Test Flow Gemini Symbols">c3d65ba1db643300346ddde7489619ce</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 18:49:40</sys_created_on>
+        <sys_id>3627dba1db643300346ddde7489619bf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>run_once</sys_name>
+        <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
+        <sys_update_name>sys_hub_trigger_instance_3627dba1db643300346ddde7489619bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 22:03:36</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3627dba1db643300346ddde7489619bf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3627dba1db643300346ddde7489619bf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 18:49:40</sys_created_on>
+        <sys_id>fa27dba1db643300346ddde7489619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-01 18:49:40</sys_updated_on>
+        <value>2019-04-01 14:00:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c3d65ba1db643300346ddde7489619ce^sys_idNOT IN4fd65ba1db643300346ddde7489619ce"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c3d65ba1db643300346ddde7489619ce</id>
+        <name>gemini_symbols</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 18:48:19</sys_created_on>
+        <sys_id>4fd65ba1db643300346ddde7489619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gemini_symbols</sys_name>
+        <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_4fd65ba1db643300346ddde7489619ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-01 18:48:19</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c3d65ba1db643300346ddde7489619ce^sys_idNOT INb22713e1db643300346ddde748961924"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Gemini Crypto Symbols">8f2cd038dba83300346ddde74896195b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Action Test Flow Gemini Symbols">c3d65ba1db643300346ddde7489619ce</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-01 18:49:40</sys_created_on>
+        <sys_id>b22713e1db643300346ddde748961924</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_b22713e1db643300346ddde748961924</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-03 22:03:36</sys_updated_on>
+        <ui_id>df349173-704b-40dd-a81f-0866a4406184</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b22713e1db643300346ddde748961924"/>
 </record_update>

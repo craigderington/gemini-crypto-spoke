@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
@@ -24,9 +24,11 @@
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-29 20:58:51</sys_created_on>
+        <sys_domain>global</sys_domain>
         <sys_id>06f79034dba83300346ddde7489619cf</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Action Test Flow</sys_name>
+        <sys_overrides/>
         <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
@@ -37,4 +39,140 @@
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=06f79034dba83300346ddde7489619cf"/>
     <sys_variable_value action="delete_multiple" query="document_key=06f79034dba83300346ddde7489619cf"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=06f79034dba83300346ddde7489619cf^sys_idNOT INc438dc34dba83300346ddde7489619eb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Crypto Stats for Trading Pair">ed7754f0dba83300346ddde74896198b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Action Test Flow">06f79034dba83300346ddde7489619cf</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 20:59:49</sys_created_on>
+        <sys_id>c438dc34dba83300346ddde7489619eb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_c438dc34dba83300346ddde7489619eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-30 18:42:12</sys_updated_on>
+        <ui_id>4994337f-5d6e-4b50-b902-8d485d1743dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c438dc34dba83300346ddde7489619eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c438dc34dba83300346ddde7489619eb</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-30 18:42:12</sys_created_on>
+        <sys_id>06428145dbe47300346ddde7489619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-30 18:42:12</sys_updated_on>
+        <value>btcusd</value>
+        <variable display_value="">0778d074dba83300346ddde74896196a</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=06f79034dba83300346ddde7489619cf^sys_idNOT IN04389434dba83300346ddde748961946"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Action Test Flow">06f79034dba83300346ddde7489619cf</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 20:59:49</sys_created_on>
+        <sys_id>04389434dba83300346ddde748961946</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>run_once</sys_name>
+        <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
+        <sys_update_name>sys_hub_trigger_instance_04389434dba83300346ddde748961946</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-30 18:42:12</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=04389434dba83300346ddde748961946"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>04389434dba83300346ddde748961946</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 20:59:49</sys_created_on>
+        <sys_id>44389434dba83300346ddde748961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 20:59:49</sys_updated_on>
+        <value>2019-03-29 17:00:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=06f79034dba83300346ddde7489619cf^sys_idNOT IN4ef79034dba83300346ddde7489619cf"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>06f79034dba83300346ddde7489619cf</id>
+        <name>Action Test Flow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 20:58:51</sys_created_on>
+        <sys_id>4ef79034dba83300346ddde7489619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Test Flow</sys_name>
+        <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_4ef79034dba83300346ddde7489619cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 20:58:51</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=06f79034dba83300346ddde7489619cf^sys_idNOT INc438dc34dba83300346ddde7489619eb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Crypto Stats for Trading Pair">ed7754f0dba83300346ddde74896198b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Action Test Flow">06f79034dba83300346ddde7489619cf</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 20:59:49</sys_created_on>
+        <sys_id>c438dc34dba83300346ddde7489619eb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Gemini Crypto Spoke" source="x_328385_gemini_cr">bf3654f0dba83300346ddde74896190a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gemini Crypto Spoke">bf3654f0dba83300346ddde74896190a</sys_scope>
+        <sys_update_name>sys_hub_action_instance_c438dc34dba83300346ddde7489619eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-30 18:42:12</sys_updated_on>
+        <ui_id>4994337f-5d6e-4b50-b902-8d485d1743dd</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c438dc34dba83300346ddde7489619eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c438dc34dba83300346ddde7489619eb</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-30 18:42:12</sys_created_on>
+        <sys_id>06428145dbe47300346ddde7489619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-30 18:42:12</sys_updated_on>
+        <value>btcusd</value>
+        <variable display_value="">0778d074dba83300346ddde74896196a</variable>
+    </sys_variable_value>
 </record_update>
